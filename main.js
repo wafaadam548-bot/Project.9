@@ -1,6 +1,22 @@
 /* this one for the windoes to wait onlode*/
 window.onload =function(){
-document.querySelector("h1").style.color="Blue";
+    window.alert("hellow  in this web have funn my frendo");
+    document.write("hellow ");
+    //the console is the ptogrammer page
+    console.log("%cwafa ya bt","color:red;font-size:40px");
+    console.error("don't forget your prayer");
+console.table(["table","osman","asma"]);
+var myname ="wafa";//var=varyables
+console.log("my name"+ myname);
+//we also have data type intro  
+console.log("wafa");
+console.log(typeof"wafa");//string
+console.log("16");
+console.log(typeof 16);//number
+console.log(typeof ["wafa","adam","noreen"]);//Array
+console.log( typeof {name:"wafa",age:"16",contory:"sud"});//object
+
+
 
 
 
