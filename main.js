@@ -6,7 +6,7 @@ window.onload =function(){
     console.log("%cwafa ya bt","color:red;font-size:40px");
     console.error("don't forget your prayer");
 console.table(["table","osman","asma"]);
-var myname ="wafa";//var=varyables
+var myname ="wafa";//var=varyables there is also let and conset are the same as var
 console.log("my name"+ myname);
 //we also have data type intro  
 console.log("wafa");
