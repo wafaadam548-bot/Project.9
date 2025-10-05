@@ -15,8 +15,9 @@ console.log("16");
 console.log(typeof 16);//number
 console.log(typeof ["wafa","adam","noreen"]);//Array
 console.log( typeof {name:"wafa",age:"16",contory:"sud"});//object
+console.log(typeof true);
 
-
+ 
 
 
 
