@@ -3,23 +3,22 @@ window.onload =function(){
     //window.alert("hellow  in this web have funn my frendo");
     //document.write("hellow ");
     //the console is the ptogrammer page
-    console.log("%cwafa ya bt","color:red;font-size:40px");
-    console.error("don't forget your prayer");
-console.table(["table","osman","asma"]);
-var myname ="wafa";//var=varyables there is also let and conset are the same as var
-console.log("my name"+ myname);
+    console.log("%cDupamecaifen","color:red;font-size:40px");
+    console.error("Don't forget to add java scrept to the main page");
+console.table(["what is the web about","most pupular books","more about naser"]);
+var myname ="naser";//var=varyables there is also let and conset are the same as var
+console.log("some info about "+ myname);
 //we also have data type intro  
-console.log("wafa");
-let a ="wafaadam";
-let b="noreen";
+let a =" source";
+let b="dupamecafien";
 //document.write(a+" " +b);
 
-console.log(typeof"wafa");//string
+console.log(typeof"dupamecafien");//string
 //we can write the /n to let one line and / for space
-console.log("16");
+console.log("30");
 console.log(typeof 16);//number
-console.log(typeof ["wafa","adam","noreen"]);//Array
-console.log( typeof {name:"wafa",age:"16",contory:"sud"});//object
+console.log(typeof ["NAser","dupamecafien","nothe channele"]);//Array
+console.log( typeof {name:"NAser",age:30 ,contory:"suaid"});//object
 console.log(typeof true);
 
  
