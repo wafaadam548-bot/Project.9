@@ -3,7 +3,16 @@ window.onload =function(){
     //window.alert("hellow  in this web have funn my frendo");
     //document.write("hellow ");
     //the console is the ptogrammer page
-    console.log("%cDupamecaifen","color:black;font-size:40px");
+    const titel=document.getElementById('head'); 
+    console.log(titel);
+    titel.style.color=("black")
+    const tab=document.getElementById('Wafa');
+    tab.style.fontSize=("20px")
+    console.log(tab);
+    const list=document.getElementById('naser');
+    console.log(list);
+    list.style.color=("black")
+    list.style.fontSize=("20px")
     console.error("Don't forget to add java scrept to the main page");
     console.log("The topecs that I should write it");
 console.table(["what is the web about","most pupular books","more about naser",
