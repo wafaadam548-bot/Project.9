@@ -3,6 +3,7 @@ window.onload =function(){
     //window.alert("hellow  in this web have funn my frendo");
     //document.write("hellow ");
     //the console is the ptogrammer page
+    console.log("Making viedios list");
     const titel=document.getElementById('head'); 
     console.log(titel);
     titel.style.color=("black")
@@ -26,6 +27,9 @@ window.onload =function(){
         addList.appendChild(li);
 
     }
+    const List=document.getElementsById('naser');
+    console.log(List);
+    
     //moodifile the text 
 
     
