@@ -13,6 +13,7 @@ window.onload =function(){
     console.log(list);
     list.style.color=("black")
     list.style.fontSize=("20px")
+    
     console.error("Don't forget to add java scrept to the main page");
     console.log("The topecs that I should write it");
 console.table(["what is the web about","most pupular books","more about naser",
