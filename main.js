@@ -13,6 +13,21 @@ window.onload =function(){
     console.log(list);
     list.style.color=("black")
     list.style.fontSize=("20px")
+    //add elements
+    const addList=document.getElementsByClassName('list')[0];
+    const Episodes=[" Why you should sleep 8 hours straight","  Can't hurt me"
+        ,"How to diversify your sources of income","The real wealth equation","Surrounded by Idiots series"
+        ,"Your problem is that you are addicted",'The relationship between your habits and the power of your subconscious mind',
+        "beautiful pain","The Secret Behind Building Great Companies","Bank of Relationships"
+    ]
+    for(let i=0; i<Episodes.length;i++){
+        const li=document.createElement("li");
+        li.textContent=Episodes[i];
+        addList.appendChild(li);
+
+    }
+    //moodifile the text 
+
     
     console.error("Don't forget to add java scrept to the main page");
     console.log("The topecs that I should write it");
