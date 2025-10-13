@@ -4,7 +4,7 @@ window.onload =function(){
     //document.write("hellow ");
     //the console is the ptogrammer page
     console.log("Making viedios list");
-    const titel=document.getElementById('head'); 
+    const titel=document.getElementsByClassName('head'); 
     console.log(titel);
     titel.style.color=("black")
     const tab=document.getElementById('Wafa');
