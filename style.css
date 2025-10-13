@@ -62,9 +62,11 @@ table,tr,td{border:solid black ;}
     display: flex;
     flex-wrap: wrap;  
   gap: 20px; 
+  justify-content: center;  
+
  }
  .video-item{
-    flex:0 0 auto;
+    flex:300px;
     text-align: center;
  }
 
