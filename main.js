@@ -4,7 +4,7 @@ window.onload =function(){
     //document.write("hellow ");
     //the console is the ptogrammer page
     console.log("Making viedios list");
-    const titel=document.getElementsByClassName('head'); 
+    const titel=document.getElementsByClassName('head')[0]; 
     console.log(titel);
     titel.style.color=("black")
     const tab=document.getElementById('Wafa');
@@ -27,7 +27,7 @@ window.onload =function(){
         addList.appendChild(li);
 
     }
-    const List=document.getElementsById('naser');
+    const List = document.getElementById('naser');
     console.log(List);
     
     //moodifile the text 
@@ -54,9 +54,20 @@ console.log(typeof ["NAser","dupamecafien","nothe channele"]);//Array
 console.log( typeof {name:"NAser",age:30 ,contory:"suaid"});//object
 console.log(typeof true);*/
 
+ }
+ function filterVideos(category) {
+    const videos = document.querySelectorAll('.video-item');
+    videos.forEach(video => {
+      if (category === 'all' || video.dataset.category === category) {
+        video.style.display = 'block';
+      } else {
+        video.style.display = 'none';
+      }
+    });
+  }
+
  
 
 
 
 
-}
