@@ -58,7 +58,15 @@ table,tr,td{border:solid black ;}
     50%{text-shadow:0 0 20px #f0b400, 0 0 40px #f0b400 ;}
     100%{text-shadow:0 0 5px #f0b400, 0 0 10px #f0b400 ;}
   }
- 
-    
+ .video-container{
+    display: flex;
+    flex-wrap: wrap;  
+  gap: 20px; 
+ }
+ .video-item{
+    flex:0 0 auto;
+    text-align: center;
+ }
+
   
   
