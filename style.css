@@ -66,9 +66,38 @@ table,tr,td{border:solid black ;}
 
  }
  .video-item{
-    flex:300px;
+    flex:20px;
     text-align: center;
  }
+ .content {
+    padding: 20px;
+    text-align: left;}
+
+    
+
+ .content a{
+    color:rgb(75, 67, 67);
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;   
+    display: inline-block;
+    animation: glowPulse 2s infinite ease-in-out;
+ }
+ .content a:hover {
+    color: #d5a001;
+    transform: scale(1.1);
+    text-shadow:0 0 10px #bf9005, 0 0 20px #daa403 ;
+    box-shadow:0 0 10px #deab13 ;
+  }
+ @keyframes glowPulse {
+    0%{transform: scale(1);}
+    50%{transform: scale(1.2);}
+    100%{transform: scale(1);}
+    0%{text-shadow:0 0 5px #f0b400, 0 0 10px #f0b400 ;}
+    50%{text-shadow:0 0 20px #f0b400, 0 0 40px #f0b400 ;}
+    100%{text-shadow:0 0 5px #f0b400, 0 0 10px #f0b400 ;}
 
   
+    
+ }
   
